@@ -57,8 +57,6 @@ module Csw
     config.version = load_version
     # Configuration parameters for ALL environments
 
-    # CMR API endpoint
-    config.cmr_search_endpoint = 'https://cmr.earthdata.nasa.gov/search'
     # CMR tag for only CWIC granules
     config.cwic_tag = 'org.ceos.wgiss.cwic.granules.prod'
     config.cwic_descriptive_keyword = 'CWIC > CEOS WGISS Integrated Catalog'

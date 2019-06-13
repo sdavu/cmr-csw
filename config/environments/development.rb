@@ -45,4 +45,7 @@ Rails.application.configure do
       :protocol => "http"
   }
 
+  # CMR API endpoint
+  config.cmr_search_endpoint = 'https://cmr.earthdata.nasa.gov/search'
+
 end
