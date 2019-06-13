@@ -39,4 +39,6 @@ Rails.application.configure do
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
+  # # CMR API endpoint
+  config.cmr_search_endpoint = 'https://cmr.earthdata.nasa.gov/search'
 end
